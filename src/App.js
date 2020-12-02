@@ -14,6 +14,7 @@ import List from './Components/List'
 import './Components/mystyle.css'
 import ComA from './Components/ComA.jsx'
 import Update from './Components/Update'
+import UnmountA from './Components/UnmountA'
 
 function App() {
   // let clam={
@@ -38,7 +39,8 @@ function App() {
      {/* <Condition/> */}
      {/* <List/> */}
      {/* <ComA/> */}
-     <Update/>
+     {/* <Update/> */}
+     <UnmountA/>
     </div>
   );
 }

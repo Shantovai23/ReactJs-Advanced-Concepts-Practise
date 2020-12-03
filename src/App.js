@@ -17,6 +17,7 @@ import Update from './Components/Update'
 import UnmountA from './Components/UnmountA'
 import PureCom from './Components/PureCom'
 import MemoA from './Components/MemoA'
+import Portals from './Components/Portals'
 
 function App() {
   // let clam={
@@ -44,7 +45,8 @@ function App() {
      {/* <Update/> */}
      {/* <UnmountA/> */}
      {/* <PureCom/> */}
-     <MemoA/>
+     {/* <MemoA/> */}
+     <Portals/>
     </div>
   );
 }

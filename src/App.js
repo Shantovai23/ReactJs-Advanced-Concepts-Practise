@@ -16,6 +16,7 @@ import ComA from './Components/ComA.jsx'
 import Update from './Components/Update'
 import UnmountA from './Components/UnmountA'
 import PureCom from './Components/PureCom'
+import MemoA from './Components/MemoA'
 
 function App() {
   // let clam={
@@ -42,7 +43,8 @@ function App() {
      {/* <ComA/> */}
      {/* <Update/> */}
      {/* <UnmountA/> */}
-     <PureCom/>
+     {/* <PureCom/> */}
+     <MemoA/>
     </div>
   );
 }

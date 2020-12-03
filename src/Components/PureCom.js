@@ -10,7 +10,7 @@ class PureCom extends PureComponent{
     componentDidMount(){
         setInterval(()=>{
          this.setState({
-             check:this.state.check+1
+             check:5
          })
         },2000)
     }

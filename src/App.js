@@ -18,6 +18,8 @@ import UnmountA from './Components/UnmountA'
 import PureCom from './Components/PureCom'
 import MemoA from './Components/MemoA'
 import Portals from './Components/Portals'
+import ClickCounter from './Components/ClickCounter'
+import HoverCounter from './Components/HoverCounter'
 
 function App() {
   // let clam={
@@ -46,7 +48,9 @@ function App() {
      {/* <UnmountA/> */}
      {/* <PureCom/> */}
      {/* <MemoA/> */}
-     <Portals/>
+     {/* <Portals/> */}
+     <ClickCounter name='Hasibul'/>
+     <HoverCounter name ='Hasan'/>
     </div>
   );
 }

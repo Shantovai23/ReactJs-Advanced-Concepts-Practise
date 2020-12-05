@@ -20,6 +20,9 @@ import MemoA from './Components/MemoA'
 import Portals from './Components/Portals'
 import ClickCounter from './Components/ClickCounter'
 import HoverCounter from './Components/HoverCounter'
+import User from './Components/User'
+import ClickCounter2 from './Components/ClickCounter2'
+import HoverCounter2 from './Components/HoverCounter2'
 
 function App() {
   // let clam={
@@ -49,8 +52,10 @@ function App() {
      {/* <PureCom/> */}
      {/* <MemoA/> */}
      {/* <Portals/> */}
-     <ClickCounter name='Hasibul'/>
-     <HoverCounter name ='Hasan'/>
+     {/* <ClickCounter name='Hasibul'/>
+     <HoverCounter name ='Hasan'/> */}
+     <User render={(value,handle)=>(<ClickCounter2 value={value} handle={handle}/>)}/>
+     <User render={(value,handle)=>(<HoverCounter2 value={value} handle={handle}/>)}/>
     </div>
   );
 }

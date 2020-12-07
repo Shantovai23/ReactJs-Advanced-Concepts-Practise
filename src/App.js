@@ -23,6 +23,8 @@ import HoverCounter from './Components/HoverCounter'
 import User from './Components/User'
 import ClickCounter2 from './Components/ClickCounter2'
 import HoverCounter2 from './Components/HoverCounter2'
+import ComOne from './Components/ComOne'
+import {UserProvider} from './Components/UserContext'
 
 function App() {
   // let clam={
@@ -54,8 +56,9 @@ function App() {
      {/* <Portals/> */}
      {/* <ClickCounter name='Hasibul'/>
      <HoverCounter name ='Hasan'/> */}
-     <User render={(value,handle)=>(<ClickCounter2 value={value} handle={handle}/>)}/>
-     <User render={(value,handle)=>(<HoverCounter2 value={value} handle={handle}/>)}/>
+     {/* <User render={(value,handle)=>(<ClickCounter2 value={value} handle={handle}/>)}/>
+     <User render={(value,handle)=>(<HoverCounter2 value={value} handle={handle}/>)}/> */}
+     <UserProvider value='Shanto'><ComOne /></UserProvider>
     </div>
   );
 }

@@ -16,6 +16,8 @@ class PostForm extends Component{
         this.setState({[e.target.name]:e.target.value})
     }
 
+
+
     submitHandler(e){
      e.preventDefault()
      axios.post('https://reqres.in/api/users',this.state)

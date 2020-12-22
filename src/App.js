@@ -25,6 +25,9 @@ import ClickCounter2 from './Components/ClickCounter2'
 import HoverCounter2 from './Components/HoverCounter2'
 import ComOne from './Components/ComOne'
 import {UserProvider} from './Components/UserContext'
+import Posts from './Components/Posts'
+import PostForm from './Components/PostForm'
+import HookCounter from './Components/HookCounter'
 
 function App() {
   // let clam={
@@ -58,7 +61,10 @@ function App() {
      <HoverCounter name ='Hasan'/> */}
      {/* <User render={(value,handle)=>(<ClickCounter2 value={value} handle={handle}/>)}/>
      <User render={(value,handle)=>(<HoverCounter2 value={value} handle={handle}/>)}/> */}
-     <UserProvider value='Shanto'><ComOne /></UserProvider>
+     {/* <UserProvider value='Shanto'><ComOne /></UserProvider> */}
+     {/* <Posts/> */}
+     {/* <PostForm/> */}
+     <HookCounter/>
     </div>
   );
 }

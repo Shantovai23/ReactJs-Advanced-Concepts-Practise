@@ -28,7 +28,8 @@ import {UserProvider} from './Components/UserContext'
 import Posts from './Components/Posts'
 import PostForm from './Components/PostForm'
 import HookCounter from './Components/HookCounter'
-
+import ObjectWithHook from './Components/ObjectWithHook'
+import ArrayWithHook from './Components/ArrayWithHook'
 function App() {
   // let clam={
   //   color:'blue'
@@ -64,7 +65,9 @@ function App() {
      {/* <UserProvider value='Shanto'><ComOne /></UserProvider> */}
      {/* <Posts/> */}
      {/* <PostForm/> */}
-     <HookCounter/>
+     {/* <HookCounter/> */}
+     {/* <ObjectWithHook/> */}
+     <ArrayWithHook/>
     </div>
   );
 }

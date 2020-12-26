@@ -30,6 +30,7 @@ import PostForm from './Components/PostForm'
 import HookCounter from './Components/HookCounter'
 import ObjectWithHook from './Components/ObjectWithHook'
 import ArrayWithHook from './Components/ArrayWithHook'
+import EffectHook from './Components/EffectHook'
 function App() {
   // let clam={
   //   color:'blue'
@@ -67,7 +68,8 @@ function App() {
      {/* <PostForm/> */}
      {/* <HookCounter/> */}
      {/* <ObjectWithHook/> */}
-     <ArrayWithHook/>
+     {/* <ArrayWithHook/> */}
+     <EffectHook/>
     </div>
   );
 }

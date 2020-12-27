@@ -31,6 +31,11 @@ import HookCounter from './Components/HookCounter'
 import ObjectWithHook from './Components/ObjectWithHook'
 import ArrayWithHook from './Components/ArrayWithHook'
 import EffectHook from './Components/EffectHook'
+import FetchData from './Components/FetchData'
+
+
+
+
 function App() {
   // let clam={
   //   color:'blue'
@@ -69,7 +74,8 @@ function App() {
      {/* <HookCounter/> */}
      {/* <ObjectWithHook/> */}
      {/* <ArrayWithHook/> */}
-     <EffectHook/>
+     {/* <EffectHook/> */}
+     <FetchData/>
     </div>
   );
 }
